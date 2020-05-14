@@ -1,6 +1,25 @@
-.callout {
+.location, .name {
   position: absolute;
-  left: 35%;
-  top: 45%;
-  //font-size: 100px;
+}
+
+.name {
+  top: -20px;
+  left: 40px;
+}
+
+.location {
+  bottom: -20px;
+  right: 40px;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .name {
+    left: 0;
+  }
+
+  .location {
+    right: 0;
+  }
 }
