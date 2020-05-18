@@ -28,6 +28,12 @@
       <a href="https://codepen.io/braydoncoyer" target="_blank"><fa-icon class="mx-8 cursor-pointer" [icon]="faCodepen"></fa-icon></a>
       <a href="mailto:braydon@coyer.net" target="_blank"><fa-icon class="mx-8 cursor-pointer" [icon]="faEmail"></fa-icon></a>
     </div>
+
+    <div class="mt-16 flex flex-col items-center text-primaryDark">
+      <p class="text-lg uppercase">Scroll</p>
+      <fa-icon class="mx-8 text-2xl" [icon]="faArrowDown"></fa-icon>
+    </div>
+
   </div>
 
 
@@ -51,7 +57,7 @@
 
 
       <p class="mt-8 text-primaryDark">My career started at a consulting company that had a primary focus on user experience and design, and stressed the importance of getting the frontend 'just right.' While there, I developed an eye for great designs that think of the end-user first.</p>
-      <p class="text-primaryDark">Now years later, I've helped lead the development of several <span class="font-bold">component libraries</span> for various clients, including Southwest Airlines, FedEx and health care industry leaders.</p>
+      <p class="text-primaryDark mt-8">Now years later, I've helped lead the development of several <span class="font-bold">component libraries</span> for various clients, including Southwest Airlines, FedEx and health care industry leaders.</p>
       <p class="text-primaryDark">I'm very active on <span class=" italic underline"><a href="https://codepen.io/braydoncoyer" target="_blank">CodePen</a></span> and love creating little projects to share.</p>
 
       <p class="mt-8 text-primaryDark">I’m a firm believer that one never truly stops learning and I'm looking to join a solid team and work on a product to help bring about change and make a difference.</p>
@@ -71,17 +77,22 @@
       <div class="mt-4 border-t border-solid border-lightGray w-2/5"></div>
     </div>
 
-    <div class="mt-8">
+    <p class="mt-8 text-primaryDark">The following include some of my side-projects. Many of the web applications I've worked on are multi-year projects and have yet to be released, including the three component libraries I've had the opportunity to help lead.</p>
+    <p class="mt-8 text-primaryDark">For more of my work history and code snippets, please consider checking out my <a class="italic underline" href="https://www.linkedin.com/in/braydon-coyer/">LinkedIn</a> profile and <a class="italic underline" href="https://codepen.io/braydoncoyer">CodePen</a> account.</p>
 
-      <div class="mt-12 md:flex md:justify-center">
-        <div class="border border-solid bg-gray-500 h-64 w-full rounded-lg md:w-2/5"></div>
-        <div class="mt-8 md:ml-8 md:mt-0 md:w-3/5">
-          <h1 class="text-lg bold md:text-2xl md:text-left">The Office API</h1>
-          <p class="text-primaryDark mt-1">A fun side-project originally built with Spring Boot and MonogDb, rebuilt with with Node.js, Express, Mongoose and MongoDb. Deployed with Heroku.</p>
+    <div class="my-12 space-y-24">
 
-          <p class="text-primaryDark mt-5 italic">"I'm not superstitious, but I am a little stitious." -Michael Scott</p>
+      <div class="md:flex md:justify-center">
+        <div class="border border-solid bg-gray-500 h-64 w-full md:w-2/5"></div>
+        <div class="mt-8 md:ml-8 md:mt-0 md:w-3/5 flex justify-between flex-col">
+         <div>
+           <h1 class="text-lg bold md:text-2xl md:text-left">The Office API</h1>
+           <p class="text-primaryDark mt-1">A fun side-project originally built with Spring Boot and MonogDb, rebuilt with with Node.js, Express, Mongoose and MongoDb. Deployed with Heroku.</p>
 
-          <p class="text-primaryDark mt-5">Doesn't get much better than that.</p>
+           <p class="text-primaryDark mt-5 italic">"I'm not superstitious, but I am a little stitious." -Michael Scott</p>
+
+           <p class="text-primaryDark mt-5">Doesn't get much better than that.</p>
+         </div>
 
           <div class="w-full flex justify-center cursor-pointer items-center bg-lightGray h-12 mt-8 md:w-2/5 hover:bg-gray-500">
             <h2 class="text-primaryBg font-bold">View Site</h2>
@@ -89,11 +100,13 @@
         </div>
       </div>
 
-      <div class="mt-12 md:flex md:justify-center">
-        <img class="bg-contain border border-solid h-64 w-full rounded-lg md:w-2/5" src="../assets/images/limeadeScreenshot.png" alt="">
-        <div class="mt-8 md:ml-8 md:mt-0 md:w-3/5">
-          <h1 class="text-lg bold md:text-2xl md:text-left">NgLimeade</h1>
-          <p class="text-primaryDark mt-1">NgLimeade is an Angular Toast Library that aims to get toast notifications up and running in less than a minute! No joke!</p>
+      <div class="md:flex md:justify-center">
+        <img class="bg-contain border border-solid h-64 w-full md:w-2/5" src="../assets/images/limeadeScreenshot.png" alt="">
+        <div class="mt-8 md:ml-8 md:mt-0 md:w-3/5 flex justify-between flex-col">
+          <div>
+            <h1 class="text-lg bold md:text-2xl md:text-left">NgLimeade</h1>
+            <p class="text-primaryDark mt-1">NgLimeade is an Angular Toast Library that aims to get toast notifications up and running in less than a minute! No joke!</p>
+          </div>
 
           <a href="https://www.npmjs.com/package/ng-limeade" target="_blank">
             <div class="w-full flex justify-center cursor-pointer items-center bg-lightGray h-12 mt-8 md:w-2/5 hover:bg-gray-500">
@@ -103,11 +116,13 @@
         </div>
       </div>
 
-      <div class="mt-12 md:flex md:justify-center">
-        <div class="border border-solid bg-gray-500 h-64 w-full rounded-lg md:w-2/5"></div>
-        <div class="mt-8 md:ml-8 md:mt-0 md:w-3/5">
-          <h1 class="text-lg bold md:text-2xl md:text-left"> Bundle, LLC </h1>
-          <p class="text-primaryDark mt-1">A startup consultant company needed a website spun up quickly in order to publish their first iOS application. Built with Tailwind UI, I was able to put something together for them by the end of the day.</p>
+      <div class="md:flex md:justify-center">
+        <div class="border border-solid bg-gray-500 h-64 w-full md:w-2/5"></div>
+        <div class="mt-8 md:ml-8 md:mt-0 md:w-3/5 flex justify-between flex-col">
+          <div>
+            <h1 class="text-lg bold md:text-2xl md:text-left"> Bundle, LLC </h1>
+            <p class="text-primaryDark mt-1">A startup consultant company needed a website spun up quickly in order to publish their first iOS application. Built with Tailwind UI, I was able to put something together for them by the end of the day.</p>
+          </div>
 
           <div class="w-full flex justify-center cursor-pointer items-center bg-lightGray h-12 mt-8 md:w-2/5 hover:bg-gray-500">
             <h2 class="text-primaryBg font-bold">View Site</h2>
@@ -115,7 +130,34 @@
         </div>
       </div>
 
+
+      <iframe height="600" style="width: 100%;" scrolling="no" title="Air Balloon Cruise " src="https://codepen.io/braydoncoyer/embed/NWqYMmV?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/braydoncoyer/pen/NWqYMmV'>Air Balloon Cruise </a> by Braydon Coyer
+        (<a href='https://codepen.io/braydoncoyer'>@braydoncoyer</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>
+
+      <iframe height="600" style="width: 100%;" scrolling="no" title="Evening Lanterns " src="https://codepen.io/braydoncoyer/embed/NWqaBmK?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/braydoncoyer/pen/NWqaBmK'>Evening Lanterns </a> by Braydon Coyer
+        (<a href='https://codepen.io/braydoncoyer'>@braydoncoyer</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>
+
+      <iframe height="600" style="width: 100%;" scrolling="no" title="Neuomorphic Checkboxes" src="https://codepen.io/braydoncoyer/embed/yLyrWOq?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/braydoncoyer/pen/yLyrWOq'>Neuomorphic Checkboxes</a> by Braydon Coyer
+        (<a href='https://codepen.io/braydoncoyer'>@braydoncoyer</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>
   </div>
+
+
+<!--  Wrap Up-->
+    <div class="container min-h-screen mt-20 flex justify-center items-center flex-col md:mt-0">
+      <p class="text-4xl text-primaryDark">Thank You!</p>
+      <div class="mt-4 border-t border-solid border-lightGray w-2/5"></div>
+      <div class="text-4xl mt-8 md:mt-8">
+        <a href="https://www.linkedin.com/in/braydon-coyer/" target="_blank"><fa-icon class="mx-8 cursor-pointer" [icon]="faLinkedIn"></fa-icon></a>
+        <a href="https://codepen.io/braydoncoyer" target="_blank"><fa-icon class="mx-8 cursor-pointer" [icon]="faCodepen"></fa-icon></a>
+        <a href="mailto:braydon@coyer.net" target="_blank"><fa-icon class="mx-8 cursor-pointer" [icon]="faEmail"></fa-icon></a>
+      </div>
+    </div>
 
 </div>
 
